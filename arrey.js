@@ -9,5 +9,5 @@ let text = " a a a a a"
 
 // console.log(friends.concat(nums));
 
-friends.slice(2,4)
-console.log(friends.slice(2,4));
+// friends.slice(2,4)
+// console.log(friends.slice(2,4));
