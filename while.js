@@ -1,6 +1,6 @@
-let num = 1;
+let num = 0;
 
-while (num <= 10){
+while (num <= 100){
     console.log(num);
-    num++
+    num = num + 2
 }
