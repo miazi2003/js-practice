@@ -1,8 +1,9 @@
-let sum = 0;
+let sub = "chemistry";
+let book = "ChemIsTry";
 
-
-for (let i = 2; i < 2000000; i++) {
-        sum = sum + i
-        
+if (book.toLowerCase() === sub.toLowerCase()){
+    console.log("pormu");
 }
-console.log(sum)
+else{
+    console.log("khamu");
+}
