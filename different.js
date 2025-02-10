@@ -1,9 +1,4 @@
-let sub = "chemistry";
-let book = "ChemIsTry";
-
-if (book.toLowerCase() === sub.toLowerCase()){
-    console.log("pormu");
-}
-else{
-    console.log("khamu");
-}
+let frndStr = "rahim ,  fahim , karim , sahil";
+let frnd = frndStr.split(",")
+console.log(frnd)
+console.log(frnd[1])
