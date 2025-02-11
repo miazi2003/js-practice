@@ -16,12 +16,30 @@
 // console.log(fullName)
 
 
-let sen = "i am a programmer";
+// let sen = "i am a programmer";
 
-let reverse = ''
-for (const letter of sen ){
-    // console.log(letter)
-    reverse = letter + reverse
+// let reverse = ''
+// for (const letter of sen ){
+//     // console.log(letter)
+//     reverse = letter + reverse
+// }
+
+// // console.log(reverse)
+
+
+ 
+// let reversed = sen.split(' ').reverse().join(' ')
+
+// console.log(reversed)
+
+
+let car = {
+    brand : "BMW",
+    model : 2017,
+    price : 2500000,
+    accelerate : function(){
+        console.log("speed up")
+    }
 }
 
-console.log(reverse)
+car.accelerate()
