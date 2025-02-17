@@ -33,13 +33,19 @@
 // console.log(reversed)
 
 
-let car = {
-    brand : "BMW",
-    model : 2017,
-    price : 2500000,
-    accelerate : function(){
-        console.log("speed up")
-    }
-}
+// let car = {
+//     brand : "BMW",
+//     model : 2017,
+//     price : 2500000,
+//     accelerate : function(){
+//         console.log("speed up")
+//     }
+// }
 
-car.accelerate()
+// car.accelerate()
+
+
+function vatKhao(){
+    console.log("ppp")
+}
+vatKhao();
