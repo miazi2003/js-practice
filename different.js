@@ -126,21 +126,30 @@
 
 // remove duplicate elements from array
 
-const biriyaniKhor = [ "abul" , "kabul", "sabul" , "abul" , "sabul"]
 
-function removeDuplicate(array){
-    let unique = []
-for (const element of array){  
-    if(unique.includes(element) === false){
-        unique.push(element)
-    }
-}
-return unique
-}
+// const biriyaniKhor = [ "abul" , "kabul", "sabul" , "abul" , "sabul"]
 
-const remove = removeDuplicate(biriyaniKhor)
+// function removeDuplicate(array){
+//     let unique = []
+// for (const element of array){  
+//     if(unique.includes(element) === false){
+//         unique.push(element)
+//     }
+// }
+// return unique
+// }
 
-console.log(remove)
+// const remove = removeDuplicate(biriyaniKhor)
+
+// console.log(remove)
+
+
+
 
 
 // remove duplicate elements from array(finished);
+
+
+const min = Math.max( 1,5,4,5643,6,1,325346,346,346,2,34,1,-1 )
+
+console.log(Math.abs(10-8))
