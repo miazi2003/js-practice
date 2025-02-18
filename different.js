@@ -96,22 +96,51 @@
 
 // console.log(year)
 
-function oddAvg(numbers) {
-  let odds = [];
-  for (const number of numbers) {
-    if (number % 2 === 1) {
-      odds.push(number);
+// function oddAvg(numbers) {
+//   let odds = [];
+//   for (const number of numbers) {
+//     if (number % 2 === 1) {
+//       odds.push(number);
+//     }
+//   }
+//   let sum = 0;
+//   for (const number of odds) {
+//     sum = sum + number;
+//   }
+//   const count = odds.length;
+//   console.log(sum, count);
+//   const avg = sum / count;
+//   return avg;
+// }
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 13];
+// const avg = oddAvg(numbers);
+// console.log(avg);
+
+
+
+
+
+
+
+
+
+// remove duplicate elements from array
+
+const biriyaniKhor = [ "abul" , "kabul", "sabul" , "abul" , "sabul"]
+
+function removeDuplicate(array){
+    let unique = []
+for (const element of array){  
+    if(unique.includes(element) === false){
+        unique.push(element)
     }
-  }
-  let sum = 0;
-  for (const number of odds) {
-    sum = sum + number;
-  }
-  const count = odds.length;
-  console.log(sum, count);
-  const avg = sum / count;
-  return avg;
 }
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 13];
-const avg = oddAvg(numbers);
-console.log(avg);
+return unique
+}
+
+const remove = removeDuplicate(biriyaniKhor)
+
+console.log(remove)
+
+
+// remove duplicate elements from array(finished);
