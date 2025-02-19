@@ -139,17 +139,58 @@
 // return unique
 // }
 
-// const remove = removeDuplicate(biriyaniKhor)
+// const remove = removeDuplicate(biriyaniKhor);
 
-// console.log(remove)
-
-
-
+// console.log(remove);
 
 
 // remove duplicate elements from array(finished);
 
 
-const min = Math.max( 1,5,4,5643,6,1,325346,346,346,2,34,1,-1 )
 
-console.log(Math.abs(10-8))
+// const min = Math.max( 1,5,4,5643,6,1,325346,346,346,2,34,1,-1 )
+
+// console.log(Math.random()*20)
+
+// const today = new Date();
+// const todays = new Date( 2 0 9 1, 1 0 , 1 2 );
+// todays.setMonth("10")
+// console.log( todays.toLocaleString('en-GB'),todays.getHours());
+
+
+
+// a4 1st prblm 
+
+
+// function cashOut(money){
+
+//     let cash = money * 1.75 / 100 
+
+//     if(typeof money === 'number' && money > 0 ){
+//         return cash
+//     }
+//     else {
+//         return "invalid"
+//     }
+// }
+
+// const cash = cashOut(2000)
+
+// console.log(cash)
+
+// a4 2nd prblm
+
+let jim = 1;
+let kim = 2 ;
+let mim = 3;
+
+let max = Math.max(jim,kim,mim)
+
+if (max == 1){
+    console.log("jim")
+}else if (max == 2){
+    console.log("kim")
+}
+else{
+    console.log("mim")
+}
