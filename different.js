@@ -180,17 +180,36 @@
 
 // a4 2nd prblm
 
-let jim = 1;
-let kim = 2 ;
-let mim = 3;
+// let jim = 1;
+// let kim = 2 ;
+// let mim = 3;
 
-let max = Math.max(jim,kim,mim)
+// let max = Math.max(jim,kim,mim)
 
-if (max == 1){
-    console.log("jim")
-}else if (max == 2){
-    console.log("kim")
+// if (max == 1){
+//     console.log("jim")
+// }else if (max == 2){
+//     console.log("kim")
+// }
+// else{
+//     console.log("mim")
+// }
+
+
+
+const h = [ 12,32,4,54,56,7];
+
+
+function getMax(numbers){
+let max = h[0]
+for (const num of numbers ){
+if(num > max){
+    max = num
 }
-else{
-    console.log("mim")
 }
+return max;
+}
+
+
+const max = getMax(h)
+console.log(max)
