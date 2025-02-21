@@ -197,19 +197,74 @@
 
 
 
-const h = [ 12,32,4,54,56,7];
+// const h = [ 12,32,4,54,56,7];
 
 
-function getMax(numbers){
-let max = h[0]
-for (const num of numbers ){
-if(num > max){
-    max = num
+// function getMax(numbers){
+// let max = h[0]
+// for (const num of numbers ){
+// if(num > max){
+//     max = num
+// }
+// }
+// return max;
+// }
+
+
+// const max = getMax(h)
+// console.log(max)
+
+// function woodQuantity(chair , table , bed){
+//     const perChairWood = 3;
+//     const perTableWood = 10;
+//     const perBedWood = 50;
+
+//     const allChairWood = chair * perChairWood;
+//     const allTableWood = table * perTableWood;
+//     const allBedWood = bed * perBedWood;
+
+//     const totalWood = allChairWood + allTableWood + allBedWood ;
+//     return totalWood;
+// }
+
+// const wood = woodQuantity(3,0,0)
+
+// console.log(wood)
+
+
+// let prices = [20000, 120934,354,1498]
+// function getCheap(numbers){
+//     let min = numbers[0]
+//     for (const num of numbers ){
+//         if(num < min){
+//             min = num
+//         }
+//     }
+//     return min;
+// }
+
+// const min = getCheap(prices)
+// console.log(min)
+
+const products = [
+    {name : 'Shampoo', price : 300 , quantity : 2},
+    {name : 'Comb', price : 500 , quantity : 4},
+    {name : 'Shirt', price : 800 , quantity : 5},
+    {name : 'Pant', price : 400 , quantity : 1},
+]
+
+
+
+function getAllTotal(products){
+    let total = 0
+    for ( const product of products){
+        const allTotal = product.price * product.quantity
+        total = total + allTotal
+    }
+    return total
+    
 }
-}
-return max;
-}
 
+const total = getAllTotal(products)
 
-const max = getMax(h)
-console.log(max)
+console.log(total)
